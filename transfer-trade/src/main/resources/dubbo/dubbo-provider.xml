@@ -8,7 +8,9 @@
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
 
-    <dubbo:protocol name="dubbo" port="20881" />
+    <dubbo:protocol name="dubbo" port="20880" />
 
-    <dubbo:service registry="registerAddress" interface="com.transfer.trade.facade.service.TradeService" ref="tradeQueryService" />
+    <dubbo:service registry="registerAddress"
+                   interface="com.transfer.trade.facade.service.TradeService"
+                   ref="tradeQueryService" />
 </beans>

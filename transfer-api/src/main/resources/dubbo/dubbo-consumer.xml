@@ -12,6 +12,8 @@
     <dubbo:registry id="registerAddress" protocol="zookeeper"
                     address="172.90.13.180:2181,172.90.13.182:2181,172.90.13.179:2181" />
 
+    <dubbo:protocol name="dubbo" port="20880" />
+
     <!-- 生成远程服务代理，可以和本地bean一样使用billService -->
     <dubbo:reference id="tradeService" interface="com.transfer.trade.facade.service.TradeService" check="false" />
 
