@@ -102,8 +102,8 @@ transfer-bill/.mvn/
 transfer-trade/.mvn/
 bill-facade/target/
 bill-facade/target/*/*
-transfer-trade/target/*
-transfer-trade/target/*/*
+trade-facade/target/
+trade-facade/target/*/*
 transfer-api/target/
 transfer-api/target/*/*
 transfer-bill/target/*
