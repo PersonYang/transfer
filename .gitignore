@@ -100,4 +100,14 @@ maven-wrapper.jar
 transfer-api/.mvn/
 transfer-bill/.mvn/
 transfer-trade/.mvn/
+bill-facade/target/
+bill-facade/target/*/*
+transfer-trade/target/*
+transfer-trade/target/*/*
+transfer-api/target/
+transfer-api/target/*/*
+transfer-bill/target/*
+transfer-bill/target/*/*
+transfer-trade/target/*
+transfer-trade/target/*/*
 
