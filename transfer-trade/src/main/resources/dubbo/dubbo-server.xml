@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!-- dubbo server name-->
+    <dubbo:application name="trade-server"  />
+    <!-- 注册中心配置 -->
+    <dubbo:registry id="registerAddress" protocol="zookeeper"
+                    address="172.90.13.180:2181,172.90.13.182:2181,172.90.13.179:2181" />
+    <import resource="dubbo-provider.xml"/>
+    <import resource="dubbo-consumer.xml"/>
+
+</beans>
