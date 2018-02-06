@@ -16,6 +16,6 @@
 
     <dubbo:service registry="registerAddress"
                    interface="com.transfer.bill.facade.service.BillService"
-                   ref="billQueryService" loadbalance="" />
+                   ref="billQueryService" />
 
 </beans>
